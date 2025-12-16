@@ -60,3 +60,21 @@ section {
 .top-nav span {
     vertical-align: middle;
 }
+
+.redes-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--branco);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.redes-sociais a:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+}
